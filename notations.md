@@ -73,4 +73,10 @@ Mostra as diferenças entre o código atual e o último commit.
 ### OBSERVAÇÕES
 
 - antes o padrão de nome para a branch princial era 'master', mas o
-github mudou esse paradrão para 'main'
+github mudou esse paradrão para 'main'.
+
+- um arquivo novo é tratado com "untracked" e fica com a letra U na
+frente do nome do arquivo
+
+- um arquivo modificado é tratado como "not staged" e fica com a letra
+M na frente do nome do arquivo
