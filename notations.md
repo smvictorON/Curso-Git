@@ -77,7 +77,7 @@ Mostra as diferenças entre o código atual e o último commit.
 `git rm <arquivo.extensao>`
 Deleta um arquivo do repositório.
 
-`git mv <arquivo.extensao>`
+`git mv <arquivo.extensao> <local><arquivo.extensao>`
 Move/Renomeia um arquivo do repositório, o monitoramento do arquivo antigo é
 perdido e ele começa um para o novo arquivo.
 
