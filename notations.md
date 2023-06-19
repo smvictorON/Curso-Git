@@ -38,7 +38,11 @@ Adiciona um arquivo específico ao índice (staging area) para ser commitado.
 Adiciona todos os arquivos modificados e novos ao índice.
 
 `git commit -m "<mensagem>"`
-Realiza um commit dos arquivos adicionados no índice com uma mensagem descritiva.
+Realiza um commit dos arquivos adicionados no índice com uma mensagem descritiva,
+podemos commit um arquivo de cada ver deixando explicito no comando
+`git commit <arquivo.extensao> -m "<mensagem>"`
+ou commitar varios arquivos de uma vez só utilizando o -a(all)
+`git commit -a -m "<mensagem>"`
 
 `git status`
 Mostra o status atual do repositório, incluindo os arquivos modificados, adicionados e commitados.
@@ -76,7 +80,9 @@ Mostra as diferenças entre o código atual e o último commit.
 github mudou esse paradrão para 'main'.
 
 - um arquivo novo é tratado com "untracked" e fica com a letra U na
-frente do nome do arquivo
+frente do nome do arquivo, `git add` para adiciona-lo ao controle de
+versão.
 
 - um arquivo modificado é tratado como "not staged" e fica com a letra
-M na frente do nome do arquivo
+M na frente do nome do arquivo, `git add` para adiciona-lo ao controle de
+versão.
