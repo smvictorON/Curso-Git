@@ -74,6 +74,13 @@ Mostra um histórico de commits.
 `git diff`
 Mostra as diferenças entre o código atual e o último commit.
 
+`git rm <arquivo.extensao>`
+Deleta um arquivo do repositório.
+
+`git mv <arquivo.extensao>`
+Move/Renomeia um arquivo do repositório, o monitoramento do arquivo antigo é
+perdido e ele começa um para o novo arquivo.
+
 ### OBSERVAÇÕES
 
 - antes o padrão de nome para a branch princial era 'master', mas o
