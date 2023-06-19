@@ -62,6 +62,9 @@ Cria uma nova branch.
 `git checkout <nome_branch>`
 Altera para a branch especificada.
 
+`git checkout <local>/<arquivo.extensao>`
+Altera o arquivo para o estado inicial, igual ao do remote.
+
 `git merge <nome_branch>`
 Incorpora as alterações da branch especificada na branch atual.
 
@@ -77,7 +80,7 @@ Mostra as diferenças entre o código atual e o último commit.
 `git rm <arquivo.extensao>`
 Deleta um arquivo do repositório.
 
-`git mv <arquivo.extensao> <local><arquivo.extensao>`
+`git mv <local>/<arquivo.extensao> <local>/<arquivo.extensao>`
 Move/Renomeia um arquivo do repositório, o monitoramento do arquivo antigo é
 perdido e ele começa um para o novo arquivo.
 
