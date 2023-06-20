@@ -22,6 +22,9 @@ para criar um repo basta executar:
 após a execução uma pasta oculta chamada .git vai ser criada na
 pasta e o git vai reconhecer a pasta com o um repositório
 
+*** Tags ***
+tags são usadas como um checkpoint, servem para demarcar um estágio do
+desenvolvimento.
 
 ### COMANDOS
 
@@ -59,8 +62,13 @@ Lista todas as branches disponíveis no repositório.
 `git branch <nome_branch>`
 Cria uma nova branch.
 
+`git branch -d <nome_branch>`
+Deleta uma branch.
+
 `git checkout <nome_branch>`
-Altera para a branch especificada.
+Altera para a branch especificada, adicionando o `-b` antes do nome da branch
+se ela nao existir ele cria e depois muda para ela, o checkout de outra branch
+não leva os commits feitos, mas leva os arquivos modificados.
 
 `git checkout <local>/<arquivo.extensao>`
 Altera o arquivo para o estado inicial, igual ao do remote.
@@ -83,6 +91,44 @@ Deleta um arquivo do repositório.
 `git mv <local>/<arquivo.extensao> <local>/<arquivo.extensao>`
 Move/Renomeia um arquivo do repositório, o monitoramento do arquivo antigo é
 perdido e ele começa um para o novo arquivo.
+
+`git reset --hard`
+Limpa todos os commits feitos e arquivos modificados deixando a branch local
+igual a branch remote.
+
+`git stash`
+Volta ela para o estado sem modificações e salva as modificações no stash da branch
+para poder ser usado depois.
+
+`git stash list`
+Lista as stashs.
+
+`git stash apply <nome_stash>`
+Recupera os mudanças da stash para a branch.
+
+`git stash show -p <nome_stash>`
+Mostra o código modificado que tem na stash.
+
+`git stash clear`
+Apaga todas as stashs do branch atual.
+
+`git stash drop <nome_stash>`
+Apaga uma stash especifica.
+
+`git tag -a <nome_tag> -m "<mensagem>"`
+Cria uma tag.
+
+`git tag"`
+Mostra as tags da branch.
+
+`git show <nome_tag>"`
+Mostra detalhes das mudanças, é possível tambem fazer o checkout por uma tag.
+
+`git push origin <nome_tag>"`
+Manda uma tag para o repositório.
+
+`git push origin --tags"`
+Manda todas nossas tags para o repositório.
 
 ### OBSERVAÇÕES
 
