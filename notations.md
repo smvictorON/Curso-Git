@@ -26,6 +26,10 @@ pasta e o git vai reconhecer a pasta com o um repositório
 tags são usadas como um checkpoint, servem para demarcar um estágio do
 desenvolvimento.
 
+*** Submodulos ***
+é uma maneira de possuir dois ou mais projetos em um só repo.
+
+
 ### COMANDOS
 
 `git init`
@@ -82,8 +86,12 @@ Adiciona um repositório remoto ao seu ambiente local.
 `git log`
 Mostra um histórico de commits.
 
+`git shortlog`
+Mostra um histórico resumido de commits.
+
 `git diff`
-Mostra as diferenças entre o código atual e o último commit.
+Mostra as diferenças entre o código atual e o último commit, mas tambem
+pode ser especificado o arquivo e tambem branchs diferentes.
 
 `git rm <arquivo.extensao>`
 Deleta um arquivo do repositório.
@@ -118,18 +126,51 @@ Apaga uma stash especifica.
 `git tag -a <nome_tag> -m "<mensagem>"`
 Cria uma tag.
 
-`git tag"`
+`git tag`
 Mostra as tags da branch.
 
-`git show <nome_tag>"`
+`git show <nome_tag>`
 Mostra detalhes das mudanças, é possível tambem fazer o checkout por uma tag.
 
-`git push origin <nome_tag>"`
+`git push origin <nome_tag>`
 Manda uma tag para o repositório.
 
-`git push origin --tags"`
+`git push origin --tags`
 Manda todas nossas tags para o repositório.
 
+`git fetch -a`
+Atualiza todas as branchs e tags ainda não conhecidos.
+
+`git submodule add <repo>`
+Adiciona um submodulo(outro repo) a um repo.
+
+`git submodule`
+Visualiza os submodulos presentes no repo.
+
+`git push --recurse-submodules=on-demand`
+Atualiza o submodule.
+
+`git show`
+Mostra detalhes da branch.
+
+`git clean -f`
+Limpa/Remove todos os arquivos nao trackeados, pode ser usado para limpar
+logs ou imagens que são geradas na pasta do projeto.
+
+`git gc`
+Significa Garbage Collector ele identifica e exclui arquivos que nao são mais
+necessario no projeto, otimizando o repo.
+
+`git fsck`
+Significa File System Check verifica a integridade de arquivos,
+otimizando o repo.
+
+`git reflog`
+Mapeia todos os passos do dev no repo, diferente do `git log` que mostra somente
+informações dos commits, o reflog tem tempo de expiração de 30 dias.
+
+`git archive --format zip --output <file_name>.zip <repo>`
+Transforma o repo em um arquivo compactado.
 ### OBSERVAÇÕES
 
 - antes o padrão de nome para a branch princial era 'master', mas o
