@@ -73,3 +73,8 @@ Javascript
 ```javascript
 console.log("seu código")
 ```
+
+Task List - essa sintaxe é especial do GitHub
+
+-[] Tarefa não concluída.
+-[x] Tarefa concluída.
