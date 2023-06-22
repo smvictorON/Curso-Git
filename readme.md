@@ -40,3 +40,6 @@ Imagens podem ser internas ou externas
 
 Interna
 ![Logo do Git](img/logo-git.png)
+
+Externo
+![Logo do Git no Wikipedia](//upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/250px-GitHub_logo_2013.svg.png)
