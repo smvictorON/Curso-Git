@@ -35,3 +35,8 @@ Listas ordernadas(ol) e não ordenadas(ul)
     3. subitem 3
 2. item nao ordenado 2
 3. item nao ordenado 3
+
+Imagens podem ser internas ou externas
+
+Interna
+![Logo do Git](img/logo-git.png)
