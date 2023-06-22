@@ -39,6 +39,7 @@ Listas ordernadas(ol) e não ordenadas(ul)
 Imagens podem ser internas ou externas
 
 Interna
+
 ![Logo do Git](img/logo-git.png)
 
 Externo
@@ -48,8 +49,13 @@ Externo
 Links
 
 Externo
+
 [Home do Google](https://www.google.com)
 
 Interno(Git)
 
 Melhor Dev: https://www.github.com/smvictorON
+
+Image com Link
+
+[![Logo do Git com url da Uol](https://www.uol.com.br)]
