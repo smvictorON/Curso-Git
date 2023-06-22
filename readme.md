@@ -62,6 +62,14 @@ Image com Link
 
 Código - essa sintaxe é especial do GitHub
 
+Normal
+
 ```
+console.log("seu código")
+```
+
+Javascript
+
+```javascript
 console.log("seu código")
 ```
