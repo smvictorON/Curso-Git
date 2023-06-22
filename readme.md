@@ -31,7 +31,7 @@ Listas ordernadas(ol) e não ordenadas(ul)
 
 1. item nao ordenado 1
   1. subitem 1
-  1. subitem 2
-  1. subitem 3
+  2. subitem 2
+  3. subitem 3
 2. item nao ordenado 2
 3. item nao ordenado 3
