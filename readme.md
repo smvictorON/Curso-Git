@@ -19,3 +19,13 @@ __negrito com underline__
 _italico com underline_
 
 _um **texto** combinado_
+
+Listas ordernadas(ol) e não ordenadas(ul)
+
+* item nao ordenado 1
+* item nao ordenado 2
+* item nao ordenado 3
+
+1. item nao ordenado 1
+2. item nao ordenado 2
+3. item nao ordenado 3
