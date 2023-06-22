@@ -14,13 +14,13 @@ empresas.
 
 *** Repo ***
 é onde nosso código fonte fica, e por ser enviados para plataformas
-que gerenciam repos como Github e Bitbucket
+que gerenciam repos como Github e Bitbucket.
 
 para criar um repo basta executar:
 `git init`
 
 após a execução uma pasta oculta chamada .git vai ser criada na
-pasta e o git vai reconhecer a pasta com o um repositório
+pasta e o git vai reconhecer a pasta com o um repositório.
 
 *** Tags ***
 tags são usadas como um checkpoint, servem para demarcar um estágio do
@@ -29,6 +29,8 @@ desenvolvimento.
 *** Submodulos ***
 é uma maneira de possuir dois ou mais projetos em um só repo.
 
+*** Markdown ***
+é uma maneira de inserir estilos para textos na web.
 
 ### COMANDOS
 
@@ -171,6 +173,16 @@ informações dos commits, o reflog tem tempo de expiração de 30 dias.
 
 `git archive --format zip --output <file_name>.zip <repo>`
 Transforma o repo em um arquivo compactado.
+
+`git rebase <branch_atual> <branch_incoming> -i`
+Faz o rebase das branchs, o `-i` é para o log ficar iterativo, mostando commits e
+ações, para editar basta apertar o i, o pick na frente do nome do commit significa
+para o usar o commit do jeito que está com a msg igual, temos a opção de usar o
+squash que é para nao levar esse commit ele vai ser colocado em outro commit
+e tambem é o reword que serve para mudar a mensagem do commit, após feito as edições
+apertar esc e :x! para sair do arquivo e continuar o rebase, vão ser mostradas
+algumas opções sobre o que está sendo feito e novos nomes para commits, é possivel
+pegar muitos commits de uma branch e unir só em um commit.
 ### OBSERVAÇÕES
 
 - antes o padrão de nome para a branch princial era 'master', mas o
