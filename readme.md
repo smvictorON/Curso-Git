@@ -78,4 +78,4 @@ Task List - essa sintaxe é especial do GitHub
 
 - [ ] Tarefa não concluída.
 
-- [ x ] Tarefa concluída.
+- [x] Tarefa concluída.
