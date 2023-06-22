@@ -76,5 +76,6 @@ console.log("seu código")
 
 Task List - essa sintaxe é especial do GitHub
 
--[] Tarefa não concluída.
--[x] Tarefa concluída.
+- [ ] Tarefa não concluída.
+
+- [ x ] Tarefa concluída.
