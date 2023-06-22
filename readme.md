@@ -23,9 +23,15 @@ _um **texto** combinado_
 Listas ordernadas(ol) e não ordenadas(ul)
 
 * item nao ordenado 1
+  * subitem 1
+  * subitem 2
+  * subitem 3
 * item nao ordenado 2
 * item nao ordenado 3
 
 1. item nao ordenado 1
+  1. subitem 1
+  1. subitem 2
+  1. subitem 3
 2. item nao ordenado 2
 3. item nao ordenado 3
