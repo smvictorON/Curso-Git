@@ -58,4 +58,4 @@ Melhor Dev: https://www.github.com/smvictorON
 
 Image com Link
 
-[![Logo do Git com url da Uol](https://www.uol.com.br)]
+[![Logo do Git com url da Uol](img/logo-git.png)](https://www.uol.com.br)
