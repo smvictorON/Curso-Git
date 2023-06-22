@@ -11,9 +11,11 @@ Titulos são interpretados como headings no html
 Ênfase em textes
 
 **negrito com asterisco**
+
 __negrito com underline__
 
 *italico com asterisco*
+
 _italico com underline_
 
 _um **texto** combinado_
