@@ -43,3 +43,7 @@ Interna
 
 Externo
 ![Logo do Git no Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/250px-GitHub_logo_2013.svg.png)
+
+Links
+
+[Home do Google](https://www.google.com)
