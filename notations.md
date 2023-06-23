@@ -32,6 +32,13 @@ desenvolvimento.
 *** Markdown ***
 é uma maneira de inserir estilos para textos na web.
 
+*** CI/CD ***
+é uma maneira de automatizar o fluxo de integração e deploy de um repo.
+
+*** Gist ***
+é um pequeno bloco de código que pode ser hospedado no git e pode ser
+compartilhado no git ou forums de programação.
+
 ### COMANDOS
 
 `git init`
